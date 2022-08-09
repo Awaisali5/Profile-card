@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: black;
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+
+
+
+}
+.profile-card{
+    width: 90%;
+    /* height: 100vh;
+    min-height: 450px; */
+    max-width: 500px;
+    background: #fff;
+    text-align: center;
+  
+    color: black;
+
+
+}
+.cover-pic{
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    max-height: 333px;
+}
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -70px;
+    box-shadow: 0 0 0 0px red;
+    transition: all 2s ease-in-out;
+
+}
+.profile-pic:hover{
+    box-shadow: 0 0 0 5px #ff004f;
+    cursor: pointer;
+}
+.profile-card h1{
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.name{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.follow-btn{
+    text-decoration: none;
+    border: 1px solid red;
+    color: black;
+    background-color: transparent;
+    padding: 8px 16px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* font-weight: 590; */
+    transition: all 4s ease-in-out;
+
+}
+.follow-btn:hover{
+    background-color: #ff004f;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.row h2{
+    font-weight: 500;
+    font-size: 32px;
+}
+.view{
+    display: inline-block;
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+    width: 100%;
+    padding:15px 0px;
+    margin-top: 25px;
+    transition: all 2s ease-in-out;
+    
+}
+.view:hover{
+    background: black;
+    color: white;
+
+}
